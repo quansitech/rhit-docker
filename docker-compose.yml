@@ -1,0 +1,13 @@
+version: '3.5'
+
+networks:
+  backend:
+    driver: bridge
+
+services:
+  rhit:
+    build:
+      context: .
+    container_name: rhit
+    volumes:
+     - /var/nginx/log:/var/nginx/log
