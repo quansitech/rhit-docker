@@ -1,4 +1,4 @@
-FROM rust
+FROM rust:latest
 
 COPY ./config.toml /usr/local/cargo/.cargo/config
 
