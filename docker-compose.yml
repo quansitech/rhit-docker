@@ -1,9 +1,5 @@
 version: '3.5'
 
-networks:
-  backend:
-    driver: bridge
-
 services:
   rhit:
     build:
@@ -11,3 +7,5 @@ services:
     container_name: rhit
     volumes:
      - /var/nginx/log:/var/nginx/log
+     - ./config.toml:/usr/local/cargo/.cargo/config
+    stdin_open: true
