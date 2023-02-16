@@ -1,3 +1,3 @@
 ## rhit-docker
 
-rhit-docker
+https://dystroy.org/rhit/
